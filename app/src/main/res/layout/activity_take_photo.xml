@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <Button
+        android:id="@+id/btn_take_photo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="拍照"/>
+    <Button
+        android:id="@+id/btn_take_video"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="录像"/>
+    <Button
+        android:id="@+id/btn_control_camera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="控制相机"/>
+    <ImageView
+        android:id="@+id/iv_thumbnail"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="#000000"/>
+    <TextView
+        android:id="@+id/tv_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="缩略图"/>
+    <VideoView
+        android:id="@+id/vv_video"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="320dp"
+        android:layout_height="240dp"/>
+
+
+</LinearLayout>
